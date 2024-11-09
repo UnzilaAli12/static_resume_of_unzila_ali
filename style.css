@@ -1,0 +1,113 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    background-color: rgb(226, 239, 239);
+    padding: 0;
+}
+
+#resumeForm {
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: left;
+    background-color: rgb(198, 221, 221);
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+}
+
+h1 {
+    text-align: center;
+    font-size: xx-large;
+    color: rgb(0, 61, 61);
+}
+
+h2 {
+    color: rgb(0, 61, 61);
+}
+
+h4 {
+    text-align: center;
+    color: rgb(0, 44, 44);
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 10px;
+    display: block;
+    width: 100%;
+    background-color: rgb(116, 185, 185);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+#skills {
+    display: block;
+}
+
+#Profile-Picture {
+    width: 150px;
+    height: 180px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+@media (max-width: 1000px) {
+    #resumeForm {
+        width: 90%;
+        height: auto;
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: x-large;
+    }
+
+    button {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    #resumeForm {
+        width: 95%;
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: large;
+    }
+
+    button {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    #resumeForm {
+        width: 100%;
+        padding: 5px;
+        box-shadow: none;
+    }
+
+    h1 {
+        font-size: medium;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
